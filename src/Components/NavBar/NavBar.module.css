@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+
+.brand {
+    margin: 30px 20%;
+}
+
+.brand h1{
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navlinkbox{
+    width: 60%;
+    margin: 0px 15%;
+    display: flex;
+    justify-content: right;
+}
+
+.links{
+    font-size: large;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.links:hover {
+    /* border-bottom: 1px solid black; */
+    text-shadow: 0 0 10px cadetblue;
+}

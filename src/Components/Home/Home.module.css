@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    margin-top: 100px;
+
+}
+.text, .desc{
+    color: white;
+}
+
+.text span{
+    color: aqua;
+    animation: fontcolor 6s infinite;
+}
+
+.profilePic {
+    border-radius: 35%;
+    margin: 40px 150px;
+    height: 350px;
+    box-shadow: 0 0 20px rgb(101, 130, 243);
+}
+
+.content{
+    margin: auto;
+}
+
+.profilePic:hover{
+    border-radius: 35%;
+    margin: 40px 150px;
+    height: 350px;
+    box-shadow: 0 0 140px rgb(101, 130, 243);
+}
+    
+@keyframes fontcolor {
+    0% {
+        color: aqua;
+    }
+    25%{
+        color: rgb(61, 237, 84);
+    }
+    50% {
+        color: rgb(246, 155, 44);
+    }
+    100% {
+        color: rgb(253, 230, 78);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container{
+        display: block;
+    }
+    .profilePic {
+        border-radius: 35%;
+        width: 30%;
+        margin: 20px 35%;
+        height: 200px;
+        box-shadow: 0 0 20px rgb(101, 130, 243);
+    }
+    .content{
+        text-align: center;
+    }
+    .desc{
+        margin-top: 20px;
+    }
+}
