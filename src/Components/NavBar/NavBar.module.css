@@ -1,5 +1,5 @@
 .navbar {
-    position: sticky;
+    position:sticky;
     top: 0;
     height: 100px;
     background-color: white;
@@ -15,10 +15,10 @@
 }
 
 .navlinkbox{
-    width: 60%;
-    margin: 0px 15%;
+    width: 40%;
+    margin: 0 20%;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
 }
 
 .links{

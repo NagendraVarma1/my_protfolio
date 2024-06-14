@@ -1,8 +1,16 @@
+.bg{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    padding-top: 100px;
+    
+}
+
 .container {
     display: flex;
     justify-content: space-around;
     height: 450px;
-    margin-top: 100px;
 
 }
 .text, .desc{
@@ -17,18 +25,20 @@
 .profilePic {
     border-radius: 35%;
     margin: 40px 150px;
-    height: 350px;
+    height: 300px;
     box-shadow: 0 0 20px rgb(101, 130, 243);
 }
 
 .content{
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profilePic:hover{
     border-radius: 35%;
     margin: 40px 150px;
-    height: 350px;
+    height: 300px;
     box-shadow: 0 0 140px rgb(101, 130, 243);
 }
     
