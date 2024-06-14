@@ -1,7 +1,7 @@
 .bg{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 86vh;
     background-color: black;
     padding-top: 100px;
     
@@ -34,13 +34,6 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.profilePic:hover{
-    border-radius: 35%;
-    margin: 40px 150px;
-    height: 300px;
-    box-shadow: 0 0 140px rgb(101, 130, 243);
-}
     
 @keyframes fontcolor {
     0% {
@@ -57,21 +50,28 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 995px) {
     .container{
         display: block;
     }
     .profilePic {
         border-radius: 35%;
         width: 30%;
-        margin: 20px 35%;
+        margin: 10px 35%;
         height: 200px;
         box-shadow: 0 0 20px rgb(101, 130, 243);
     }
+
     .content{
         text-align: center;
+        margin-top: 10px;
+    }
+    .text{
+        font-size: medium;
     }
     .desc{
-        margin-top: 20px;
+        margin: 20px 15%;
+        width: 70%;
+        font-size: small;
     }
 }
