@@ -1,4 +1,3 @@
-import { Nav, Navbar } from "react-bootstrap";
 import classes from "./NavBar.module.css";
 
 const NavBar = () => {
@@ -22,10 +21,10 @@ const NavBar = () => {
         </svg>
       </div>
       <ul className={classes.navlinkbox}>
-        <li className={classes.links}>Home</li>
-        <li className={classes.links}>Qualification</li>
-        <li className={classes.links}>Projects</li>
-        <li className={classes.links}>Contact</li>
+        <a href="/"><li className={classes.links}>Home</li></a>
+        <a href="/"><li className={classes.links}>Education</li></a>
+        <a href="/"><li className={classes.links}>Projects</li></a>
+        <a href="/"><li className={classes.links}>Contact</li></a>
       </ul>
     </div>
   );

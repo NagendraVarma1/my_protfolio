@@ -2,7 +2,7 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
-import Qualification from './Components/Qualification/Qualification';
+import Qualification from './Components/Education/Education';
 
 function App() {
   return (

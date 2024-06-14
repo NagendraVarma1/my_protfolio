@@ -1,0 +1,40 @@
+.educationBg{
+    width: 100%;
+    height: 86vh;
+    padding-top: 60px;
+}
+
+.header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+.cardDiv{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.card{
+    background-color: black;
+    height: 350px;
+    width: 48%;
+    margin-top: 60px;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .cardDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
