@@ -2,6 +2,7 @@
     width: 100%;
     height: 92vh;
     padding-top: 60px;
+    background-color: black;
 }
 
 .header {
@@ -20,21 +21,117 @@
 }
 
 .card{
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 350px;
     width: 48%;
     margin-top: 60px;
     border-radius: 20px;
-    
+    border: 1px solid #0082F4;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px #0082F4;;
+}
+
+.course{
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+}
+
+.course h1{
+    font-size: 2.3rem;
+    margin-left: 25px;
+    margin-top: 50%;
+    text-decoration: underline #0082F4;;
+}
+
+.details{
+    width: 60%;
+    padding: 0 10% 0 6%;
+}
+
+.details h2{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.details p{
+    color: white;
+}
+
+.details h4{
+    font-size: 1.2rem;
+    color: white;
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1350px) {
+    .educationBg{
+        height: 92vh;
+    }
+    .cardDiv{
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .course{
+        width: 100%;
+        height: 30%;
+    }
+    .course h1{
+        margin: auto;
+    }
+    .details{
+        width: 100%;
+        padding: 0;
+    }
+    .details h4{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
+
+    .educationBg{
+        height: auto;
+    }
     .cardDiv{
         display: flex;
         flex-direction: column;
     }
     .card{
         width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
         margin-left: 10%;
+        height: 250px;
+    }
+    .course{
+        width: 100%;
+        height: 30%;
+    }
+    .course h1{
+        margin: auto;
+    }
+    .details{
+        width: 100%;
+        padding: 0;
+    }
+    .details h4{
+        font-size: 1rem;
     }
 }
