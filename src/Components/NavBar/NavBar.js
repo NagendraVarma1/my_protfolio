@@ -22,10 +22,10 @@ const NavBar = () => {
         </svg>
       </div>
       <ul className={classes.navlinkbox}>
-        <Link to="home" style={{margin: 'auto'}}><li className={classes.links}>Home</li></Link>
-        <Link to="education" style={{margin: 'auto'}}><li className={classes.links}>Education</li></Link>
-        <Link to="projects" style={{margin: 'auto'}}><li className={classes.links}>Projects</li></Link>
-        <Link to="contact" style={{margin: 'auto'}}><li className={classes.links}>Contact</li></Link>
+        <Link to="home" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Home</li></Link>
+        <Link to="education" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Education</li></Link>
+        <Link to="projects" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Projects</li></Link>
+        <Link to="contact" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Contact</li></Link>
       </ul>
     </div>
   );
