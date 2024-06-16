@@ -2,7 +2,7 @@ import classes from "./Education.module.css";
 
 const Qualification = () => {
   return (
-    <div className={classes.educationBg}>
+    <div id="education" className={classes.educationBg}>
       <h1 className={classes.header}>EDUCATION</h1>
       <div className={classes.cardDiv}>
         {/* lets only mention graduation and sharpener in this columns */}

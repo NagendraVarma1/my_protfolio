@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import classes from "./NavBar.module.css";
 
 const NavBar = () => {
@@ -21,10 +22,10 @@ const NavBar = () => {
         </svg>
       </div>
       <ul className={classes.navlinkbox}>
-        <a href="/"><li className={classes.links}>Home</li></a>
-        <a href="/"><li className={classes.links}>Education</li></a>
-        <a href="/"><li className={classes.links}>Projects</li></a>
-        <a href="/"><li className={classes.links}>Contact</li></a>
+        <Link to="home" style={{margin: 'auto'}}><li className={classes.links}>Home</li></Link>
+        <Link to="education" style={{margin: 'auto'}}><li className={classes.links}>Education</li></Link>
+        <Link to="projects" style={{margin: 'auto'}}><li className={classes.links}>Projects</li></Link>
+        <Link to="contact" style={{margin: 'auto'}}><li className={classes.links}>Contact</li></Link>
       </ul>
     </div>
   );
