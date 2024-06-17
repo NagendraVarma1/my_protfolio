@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 729.9px) {
     .cardDiv{
         display: flex;
         flex-wrap: wrap;
