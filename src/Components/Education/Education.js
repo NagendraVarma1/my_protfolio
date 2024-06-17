@@ -5,7 +5,6 @@ const Qualification = () => {
     <div id="education" className={classes.educationBg}>
       <h1 className={classes.header}>EDUCATION</h1>
       <div className={classes.cardDiv}>
-        {/* lets only mention graduation and sharpener in this columns */}
         <div className={classes.card}>
           <div className={classes.course}>
             <h1>GRADUATION</h1>

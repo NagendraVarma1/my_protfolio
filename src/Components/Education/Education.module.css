@@ -34,7 +34,7 @@
 
 .card:hover{
     transform: scale(1.03);
-    box-shadow: 0 0 10px #0082F4;;
+    box-shadow: 0 0 10px #0082F4;
 }
 
 .course{
