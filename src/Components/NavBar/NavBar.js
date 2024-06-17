@@ -1,12 +1,18 @@
 import { Link } from "react-scroll";
 import classes from "./NavBar.module.css";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [active, setActive] = useState(false)
+
+  const activeHandler = () => {
+    setActive(!active)
+  }
   return (
     <div className={classes.navbar}>
       <h1 className={classes.brand}>Portfolio</h1>
 
-      <div className={classes.burgerBtn}>
+      <div className={classes.burgerBtn} onClick={activeHandler}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="35"
@@ -21,11 +27,11 @@ const NavBar = () => {
           />
         </svg>
       </div>
-      <ul className={classes.navlinkbox}>
-        <Link to="home" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Home</li></Link>
-        <Link to="education" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Education</li></Link>
-        <Link to="projects" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Projects</li></Link>
-        <Link to="contact" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Contact</li></Link>
+      <ul className={active ? classes.navlinkboxActive : classes.navlinkbox}>
+        <Link onClick={activeHandler} to="home" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Home</li></Link>
+        <Link onClick={activeHandler} to="education" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Education</li></Link>
+        <Link onClick={activeHandler} to="projects" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Projects</li></Link>
+        <Link onClick={activeHandler} to="contact" style={{margin: 'auto'}} smooth={true} duration={30}><li className={classes.links}>Contact</li></Link>
       </ul>
     </div>
   );
