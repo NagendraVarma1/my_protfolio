@@ -1,6 +1,6 @@
 .educationBg{
     width: 100%;
-    height: 92vh;
+    height: auto;
     padding-top: 60px;
     background-color: black;
 }
@@ -123,7 +123,7 @@
         text-align: center;
         margin-top: 40px;
         margin-left: 10%;
-        height: 250px;
+        height: 200px;
     }
     .course{
         width: 100%;
@@ -131,6 +131,7 @@
     }
     .course h1{
         margin: auto;
+        font-size: 1.6rem;
     }
     .details{
         width: 100%;

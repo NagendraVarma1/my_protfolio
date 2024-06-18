@@ -48,7 +48,7 @@
     text-shadow: 0 0 10px cadetblue;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 480px) and (max-width: 780px) {
 
     .navlinkbox{
         display: none;
@@ -79,7 +79,7 @@
         display: block;
         list-style-type: none;
         top: 65px;
-        left: 65%;
+        left: 60%;
         padding: 20px;
     }
 
@@ -99,5 +99,54 @@
         padding-left: 2px
     }
     
+}
+
+@media screen and (max-width: 479.9px) {
+    .navlinkbox{
+        display: none;
+    }
+
+    .brand{
+        margin: 10px 10%;
+    }
+
+    .burgerBtn {
+        display: inline;
+        padding: 5px;
+        height: 40px;
+        padding-left: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .navlinkboxActive {
+        text-align: center;
+        border: 1px solid #3f7bb0;
+        background-color: rgb(90, 131, 237);
+        border-radius: 10px;
+        width: auto;
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        top: 65px;
+        left: 55%;
+        padding: 10px;
+    }
+
+    .links{
+        font-size: medium;
+        margin: 10px;
+        cursor: pointer;
+        color: white;
+        border-bottom: 1px solid black;
+    }
+
+    .burgerBtn:hover{
+        background-color: #849af5;
+        box-shadow: 0 0 10px rgb(101, 130, 243);
+    }
+    .logo {
+        padding-left: 2px
+    }
     
 }

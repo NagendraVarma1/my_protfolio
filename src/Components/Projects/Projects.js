@@ -21,10 +21,10 @@ const Projects = () => {
             <li className={classes.list}>
               Used firebase for authentication and for the data storage.
             </li>
-            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-              Repository
-            </a>
           </ul>
+          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+            Repository
+          </a>
         </div>
         <div className={classes.card}>
           <h3 className={classes.projectTitle}>EXPENSE TRACKER</h3>
@@ -41,10 +41,10 @@ const Projects = () => {
             <li className={classes.list}>
               Used firebase for authentication and for the data storage.
             </li>
-            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-              Repository
-            </a>
           </ul>
+          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+            Repository
+          </a>
         </div>
         <div className={classes.card}>
           <h3 className={classes.projectTitle}>MAIL CLIENT BOX</h3>
@@ -63,10 +63,10 @@ const Projects = () => {
               We can send and receive mails from the other users and delete the
               unwanted mails.
             </li>
-            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-              Repository
-            </a>
           </ul>
+          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+            Repository
+          </a>
         </div>
       </div>
     </div>

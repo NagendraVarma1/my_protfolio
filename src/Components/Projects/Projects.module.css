@@ -68,6 +68,13 @@
 }
 
 @media screen and (max-width: 729.9px) {
+
+    .projectsBg{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding-top: 100px;
+    }
     .cardDiv{
         display: flex;
         flex-wrap: wrap;
@@ -91,5 +98,6 @@
     a {
         font-size: 0.7rem;
         margin-top: 50px;
+        margin-left: 20%;
     }
 }

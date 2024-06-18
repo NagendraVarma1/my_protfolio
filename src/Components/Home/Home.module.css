@@ -51,9 +51,45 @@
     }
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (min-width: 480px) and (max-width: 995px) {
     .container{
         display: block;
+    }
+    .profilePic {
+        border-radius: 35%;
+        width: 30%;
+        margin: 10px 35%;
+        height: 200px;
+        box-shadow: 0 0 20px rgb(101, 130, 243);
+    }
+
+    .content{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text{
+        font-size: medium;
+    }
+    .desc{
+        margin: 20px 15%;
+        width: 70%;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 479.9px) {
+    .bg{
+        margin: 0;
+        padding: 0;
+        height: 92vh;
+        background-color: black;
+        padding-top: 30px;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
     }
     .profilePic {
         border-radius: 35%;

@@ -1,8 +1,9 @@
 .contactBg{
     width: 100%;
-    height: 92vh;
+    height: auto;
     background-color: black;
     padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -68,15 +69,15 @@
         width: 70%;
         display: flex;
         flex-direction: column;
-        margin: 60px 15%;
+        margin: 40px 15%;
         border: 1px solid #0082F4;
         border-radius: 20px;
-        padding: 20px;
+        padding: 10px 20px;
         box-shadow: 0 0 10px #0082F4;
     }
 
     .inputDiv{
-        margin: 10px 10%;
+        margin: 5px 10%;
         display: flex;
         flex-direction: column ;
     }
