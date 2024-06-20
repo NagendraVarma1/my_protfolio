@@ -1,8 +1,9 @@
 .educationBg{
     width: 100%;
-    height: auto;
+    height: fit-content;
     padding-top: 60px;
     background-color: black;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -10,7 +11,6 @@
     color: white;
     text-align: center;
     text-shadow: 0 0 20px black;
-    margin-top: 60px;
 }
 
 .cardDiv{
@@ -72,9 +72,7 @@
 }
 
 @media screen and (min-width: 1010px) and (max-width: 1350px) {
-    .educationBg{
-        height: 92vh;
-    }
+    
     .cardDiv{
         justify-content: space-evenly;
     }
@@ -104,10 +102,6 @@
 
 @media screen and (max-width: 1000px) {
 
-    .educationBg{
-        height: auto;
-    }
-
     .header{
         margin-top: 10px;
     }
@@ -124,6 +118,7 @@
         margin-top: 40px;
         margin-left: 10%;
         height: 200px;
+        padding: 10px;
     }
     .course{
         width: 100%;

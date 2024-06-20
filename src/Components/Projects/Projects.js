@@ -22,9 +22,11 @@ const Projects = () => {
               Used firebase for authentication and for the data storage.
             </li>
           </ul>
-          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-            Repository
-          </a>
+          <div style={{ textAlign: "center" }}>
+            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+              Repository
+            </a>
+          </div>
         </div>
         <div className={classes.card}>
           <h3 className={classes.projectTitle}>EXPENSE TRACKER</h3>
@@ -42,9 +44,11 @@ const Projects = () => {
               Used firebase for authentication and for the data storage.
             </li>
           </ul>
-          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-            Repository
-          </a>
+          <div style={{ textAlign: "center" }}>
+            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+              Repository
+            </a>
+          </div>
         </div>
         <div className={classes.card}>
           <h3 className={classes.projectTitle}>MAIL CLIENT BOX</h3>
@@ -64,9 +68,11 @@ const Projects = () => {
               unwanted mails.
             </li>
           </ul>
-          <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
-            Repository
-          </a>
+          <div style={{ textAlign: "center" }}>
+            <a href="https://github.com/NagendraVarma1/Ecommerce-Website-Main">
+              Repository
+            </a>
+          </div>
         </div>
       </div>
     </div>

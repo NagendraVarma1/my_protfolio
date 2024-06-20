@@ -35,6 +35,18 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.icon{
+    color: white;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
     
 @keyframes fontcolor {
     0% {
@@ -52,6 +64,16 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 995px) {
+
+    .bg{
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
     .container{
         display: block;
     }
@@ -81,9 +103,10 @@
     .bg{
         margin: 0;
         padding: 0;
-        height: 92vh;
+        height: fit-content;
         background-color: black;
         padding-top: 30px;
+        padding-bottom: 20px;
         
     }
     .container{
@@ -110,5 +133,20 @@
         margin: 20px 15%;
         width: 70%;
         font-size: small;
+    }
+    .icon{
+        color: white;
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+    }
+    .btn{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .btn a{
+        font-size: 0.8rem;
+        margin-bottom: 5px;
     }
 }

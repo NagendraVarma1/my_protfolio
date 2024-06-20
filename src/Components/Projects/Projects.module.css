@@ -1,6 +1,6 @@
 .projectsBg{
     width: 100%;
-    height: 92vh;
+    height: max-content;
     background-color: black;
     padding-top: 100px;
 }
@@ -14,10 +14,11 @@
 
 .cardDiv{
     width: 90%;
-    height: 600px;
+    height: max-content;
     margin-left: 5%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .card{
@@ -48,6 +49,8 @@
     color: white;
 }
 
+
+
 @media screen and (min-width: 730px) and (max-width: 1040px) {
 
     .projectTitle{
@@ -69,35 +72,19 @@
 
 @media screen and (max-width: 729.9px) {
 
-    .projectsBg{
-        width: 100%;
-        height: auto;
-        background-color: black;
-        padding-top: 100px;
-    }
     .cardDiv{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .card{
+        width: 80%;
+        height: fit-content;
+        margin-top: 60px;
+        margin-left: 10%;
     }
     .list{
-        display: none;
+        margin-top: 15px;
     }
-    .projectTitle{
-        font-size: 0.7rem;
-    }
-
-    .description{
-        font-size: 0.65rem;
-    }
-
-    .card{
-        height: 300px;
-        margin-top: 60px;
-    }
-
-    a {
-        font-size: 0.7rem;
-        margin-top: 50px;
-        margin-left: 20%;
-    }
+    
 }
