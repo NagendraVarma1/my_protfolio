@@ -49,7 +49,7 @@ const Home = () => {
               </svg> */}
               <FaGithub className={classes.icon}/>
             </a>
-            <Button variant="outline-success" className={classes.btn} ><a href="nagendra_varma_frontend_developer.pdf" download='Nagendra_Resume.pdf'>Resume</a></Button>
+            <Button variant="outline-success" className={classes.btn} ><a href="my_new_resume.pdf" download='Nagendra_Resume.pdf'>Resume</a></Button>
           </div>
         </div>
       </Container>
